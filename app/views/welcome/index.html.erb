@@ -1,0 +1,1 @@
+<h1>Welcome to the finance tracker app</h1>
