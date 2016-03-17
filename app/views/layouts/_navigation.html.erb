@@ -13,7 +13,7 @@
           <li><%= link_to "My Profile", edit_registration_path(current_user) %></li>
           <li><%= link_to "Link3", "/path3"  %></li>
         </ul>
-        <ul class='nav nav-bar-right col-md-4'>
+        <ul class='nav navbar-right col-md-4'>
           <li class='col-md-8 user-name text-right'>
             <i class='fa fa-user'></i>
             <%= current_user.full_name.present? ? current_user.full_name : current_user.email %>
